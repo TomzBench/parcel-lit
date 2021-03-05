@@ -1,0 +1,38 @@
+{
+  "name": "parcel-lit",
+  "version": "1.0.0",
+  "main": "demo.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/demo.html --open firefox",
+    "build": "parcel build --dist-dir=./dist src/demo.html"
+  },
+  "browserslist": [
+    "chrome > 50"
+  ],
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "nightly",
+    "@parcel/core": "nightly",
+    "@parcel/optimizer-cssnano": "nightly",
+    "@parcel/optimizer-htmlnano": "nightly",
+    "@parcel/optimizer-terser": "nightly",
+    "@parcel/packager-css": "nightly",
+    "@parcel/packager-html": "nightly",
+    "@parcel/packager-js": "nightly",
+    "@parcel/packager-ts": "nightly",
+    "@parcel/transformer-babel": "nightly",
+    "@parcel/transformer-css": "nightly",
+    "@parcel/transformer-html": "nightly",
+    "@parcel/transformer-js": "nightly",
+    "@parcel/transformer-less": "nightly",
+    "@parcel/transformer-postcss": "nightly",
+    "@parcel/transformer-posthtml": "nightly",
+    "@parcel/transformer-sass": "nightly",
+    "@parcel/transformer-typescript-tsc": "nightly",
+    "parcel": "nightly",
+    "typescript": "^4.2.3"
+  }
+}
